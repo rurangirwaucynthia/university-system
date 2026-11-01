@@ -7,7 +7,7 @@ import java.util.List;
 
 public class StudentDAO {
 
-    // CREATE: add a student
+    //adding student
     public void insert(Student s) {
         String sql = "INSERT INTO students(name, email, major, student_type) VALUES (?, ?, ?, ?)";
         try (Connection conn = DBConnection.getConnection();
