@@ -31,7 +31,8 @@ public class Main {
                     case 10: showGpa(); break;
                     case 0: running = false; break;
                     default: System.out.println("Unknown option. Try again.");
-                }   // end of switch
+                }
+                //end *switch
 
             } catch (InvalidInputException e) {
                 System.out.println("Invalid input: " + e.getMessage());
