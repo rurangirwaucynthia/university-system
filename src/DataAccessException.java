@@ -5,7 +5,7 @@ public class DataAccessException extends RuntimeException {
     public DataAccessException(String message, Throwable cause) {
         super(message, cause);
     }
-
+//work
     public static DataAccessException from(String action, SQLException e) {
         String code = e.getSQLState();
 

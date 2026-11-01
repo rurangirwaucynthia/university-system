@@ -46,7 +46,7 @@ public class CourseDAO {
         }
     }
 
-    // READ all
+    // all
     public List<Course> findAll() {
         List<Course> courses = new ArrayList<>();
         String sql = "SELECT * FROM courses ORDER BY code";
