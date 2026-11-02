@@ -10,7 +10,7 @@ public abstract class Student {
     private String major;
     private Map<String, Double> grades = new HashMap<>();
 
-    // Constructor
+
     public Student(int id, String name, String email, String major) {
         this.id = id;
         this.name = name;
@@ -18,7 +18,7 @@ public abstract class Student {
         this.major = major;
     }
 
-    // ---------- GETTERS: empty brackets, they return the value ----------
+
     public int getId() {
         return id;
     }
@@ -39,7 +39,7 @@ public abstract class Student {
         return grades;
     }
 
-    // ---------- SETTERS: one value inside the brackets, they change the value ----------
+
     public void setId(int id) {
         this.id = id;
     }
@@ -63,7 +63,7 @@ public abstract class Student {
         grades.put(courseCode, score);
     }
 
-    // Each child class writes its own version of these two
+
     public abstract double calculateGPA();
 
     public abstract String getStudentType();

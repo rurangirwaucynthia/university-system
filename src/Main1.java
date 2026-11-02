@@ -19,9 +19,9 @@ public class Main1 {
         assignments.get(kamanzi).add(ds);
         ds.setInstructor(kamanzi);
 
-        System.out.println("Enroll Alice: " + ds.enrollStudent(alice));          // true
-        System.out.println("Enroll Alice again: " + ds.enrollStudent(alice));    // false
-        System.out.println("Enroll Bob: " + ds.enrollStudent(bob));              // true
+        System.out.println("Enroll Alice: " + ds.enrollStudent(alice));
+        System.out.println("Enroll Alice again: " + ds.enrollStudent(alice));
+        System.out.println("Enroll Bob: " + ds.enrollStudent(bob));
 
         alice.addGrade("CS201", 91);
         bob.addGrade("CS201", 91);
